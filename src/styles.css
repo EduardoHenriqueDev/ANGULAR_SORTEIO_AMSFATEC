@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: transparent !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* Garante que o texto também fique alinhado */
+    width: 100%;
+}

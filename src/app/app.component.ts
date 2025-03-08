@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms';
+import { NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, NgbModule],
+  imports: [CommonModule, FormsModule, NgbTooltipModule],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
